@@ -25,19 +25,18 @@
 body {
   height: 100vh;
   margin: 0;
-  background: linear-gradient(270deg, #6e9696, #eb8714);
-  background-size: 400% 400%;
-  animation: gradientMotion 8s ease infinite;
+  background: radial-gradient(circle at 20% 30%, #6e9696 0%, transparent 60%),
+              radial-gradient(circle at 80% 70%, #eb8714 0%, transparent 60%),
+              #000; /* base dark sky */
+  background-size: 200% 200%;
+  animation: aurora 10s ease-in-out infinite alternate;
 }
 
-@keyframes gradientMotion {
+@keyframes aurora {
   0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
+    background-position: 0% 0%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 100% 100%;
   }
 }
