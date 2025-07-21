@@ -1,16 +1,15 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
 
-<div id="did-agent-container"></div>
+<!-- Container for the agent -->
+<div id="did-agent-container" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9999;"></div>
 
 <script type="module"
       src="https://agent.d-id.com/v2/index.js"
-      data-mode="fabio"
+      data-mode="full"
       data-client-key="bGlua2VkaW58amJzQ0MyNFZyMjpzYjhFQ3BjZzNPN0xEZkN4eVl5dGk="
       data-agent-id="v2_agt_6i3Y1U23"
       data-name="did-agent"
       data-monitor="true"
-      data-target-id="did-agent-container"
-      data-orientation="horizontal"
-      data-position="right">
+      data-target-id="did-agent-container">
 </script>
