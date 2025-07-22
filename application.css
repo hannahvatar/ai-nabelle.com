@@ -1,12 +1,9 @@
-/* config/fonts - (Content would go here after compilation) */
-/* config/colors - (Content would go here after compilation) */
-/* config/bootstrap_variables - (Content would go here after compilation) */
-
-/* bootstrap - (Full Bootstrap CSS content would go here after compilation) */
-/* font-awesome - (Full Font Awesome CSS content would go here after compilation) */
-
-/* components/index - (Content of _index.scss in components would go here) */
-/* pages/index - (Content of _index.scss in pages would go here) */
+/*
+  This is the compiled content of your application.scss.
+  The @import rules for config/, components/, and pages/
+  would insert their CSS here if those files contain any.
+  Bootstrap and Font Awesome are explicitly excluded.
+*/
 
 #did-agent-container {
   width: 800px;
