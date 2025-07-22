@@ -1,0 +1,22 @@
+/* config/fonts - (Content would go here after compilation) */
+/* config/colors - (Content would go here after compilation) */
+/* config/bootstrap_variables - (Content would go here after compilation) */
+
+/* bootstrap - (Full Bootstrap CSS content would go here after compilation) */
+/* font-awesome - (Full Font Awesome CSS content would go here after compilation) */
+
+/* components/index - (Content of _index.scss in components would go here) */
+/* pages/index - (Content of _index.scss in pages would go here) */
+
+#did-agent-container {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px 0;
+  background-color: #f8f9fa;
+}
+
+body {
+  background-color: white;
+}
